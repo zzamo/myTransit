@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserAcceptActivity">
+
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textViewDistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="5dp"
+                android:text="Distance In Meters"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textViewAddressLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textViewDistance"
+                android:layout_marginBottom="5dp"
+                android:text="Address Locations"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewHname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textViewAddressLocation"
+                android:layout_marginBottom="5dp"
+                android:text="Sacco Name"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewBloodType"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textViewHname"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/circle_textview"
+                android:paddingTop="15dp"
+                android:text="route"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textViewDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:layout_alignBaseline="@+id/textViewNames"
+                android:layout_alignBottom="@+id/textViewNames"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/textViewNames"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewHname"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/textViewBloodType"
+                android:layout_toRightOf="@+id/textViewBloodType"
+                android:text="Full Names"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textViewGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewNames"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/textViewBloodType"
+                android:layout_toRightOf="@+id/textViewBloodType"
+                android:text="Gender" />
+
+            <TextView
+                android:id="@+id/textViewReason"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textViewBloodType"
+                android:text="Reason to book" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "624738706750",
+    "firebase_url": "https://mytransit-b5dfd.firebaseio.com",
+    "project_id": "mytransit-b5dfd",
+    "storage_bucket": "mytransit-b5dfd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624738706750:android:c1543d12ba37814b",
+        "android_client_info": {
+          "package_name": "com.example.dennisjuma.mytransit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624738706750-7iongjuntt5cv734gpqo7j1tu0f47es6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dennisjuma.mytransit",
+            "certificate_hash": "903e8aba1f152d26e4cbb56a2dee00ed937deda9"
+          }
+        },
+        {
+          "client_id": "624738706750-celf2urakne750ogcto56nd0l87rpdc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8fcaLw_gF79uBRFCB3ueaWwEOFxdNu4o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624738706750-celf2urakne750ogcto56nd0l87rpdc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
